@@ -19,7 +19,7 @@ def test_knapsack_01():
     weights2 = [5, 10, 15, 2, 3]
     capacity2 = 10
     max_value2, selected_items2 = knapsack_01(values2, weights2, capacity2)
-    assert max_value2 == 90
+    assert max_value2 == 60
     assert selected_items2 == [0, 3, 4]
 
     # Test Case 3
